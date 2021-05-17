@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/food-admin-dashboard/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/food-admin-dashboard/static/js/main.d033bf79.chunk.js",
+    "main.js.map": "/food-admin-dashboard/static/js/main.d033bf79.chunk.js.map",
+    "runtime-main.js": "/food-admin-dashboard/static/js/runtime-main.78196d87.js",
+    "runtime-main.js.map": "/food-admin-dashboard/static/js/runtime-main.78196d87.js.map",
+    "static/js/2.1e2e0a12.chunk.js": "/food-admin-dashboard/static/js/2.1e2e0a12.chunk.js",
+    "static/js/2.1e2e0a12.chunk.js.map": "/food-admin-dashboard/static/js/2.1e2e0a12.chunk.js.map",
+    "static/js/3.279c8a07.chunk.js": "/food-admin-dashboard/static/js/3.279c8a07.chunk.js",
+    "static/js/3.279c8a07.chunk.js.map": "/food-admin-dashboard/static/js/3.279c8a07.chunk.js.map",
+    "index.html": "/food-admin-dashboard/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/food-admin-dashboard/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.1e2e0a12.chunk.js.LICENSE.txt": "/food-admin-dashboard/static/js/2.1e2e0a12.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/food-admin-dashboard/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.78196d87.js",
+    "static/js/2.1e2e0a12.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.d033bf79.chunk.js"
+  ]
+}
