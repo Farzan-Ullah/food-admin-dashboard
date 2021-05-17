@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import {Switch,Route} from 'react-router-dom';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+ import HomeComponent from './common/homeComponent'
+import AdminLoginComponent from './common/adminLoginComponent'
+import DealerLoginComponent from './common/dealerLoginComponent'
+import AdminHomeComponent from './admin/adminHomeComponent'
+import MenuComponent from './common/menuComponent'
+import DealerHomeComponent from './user/dealerHomeComponent'
+
+class App extends React.Component
+{
+   constructor(props)
+   {
+     super(props)     
+   }
+
+   render(){
+     return <>
+        <MenuComponent/>
+        
+      <br/>
+      <Switch>
+          
+         
+
+          <Route exact path="/"> <HomeComponent/> </Route>
+          <Route path="/admin"> <AdminHomeComponent/> </Route>
+          <Route path="/adminlogin"> <AdminLoginComponent/> </Route>
+          <Route path="/dealerlogin"> <DealerLoginComponent/> </Route>
+          <Route path="/user"> <DealerHomeComponent/> </Route>
+           
+          
+
+          
+      </Switch>
+     </>
+   }
 }
 
 export default App;
